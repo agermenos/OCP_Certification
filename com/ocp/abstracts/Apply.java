@@ -1,5 +1,7 @@
 package com.ocp.abstracts;
 
+import com.ocp.abstracts.filters.*;
+
 import java.util.*;
 import static com.ocp.util.Print.*;
 /*  Thinking in Java, at it's finest :) */
@@ -21,7 +23,7 @@ class Splitter extends Processor {
     }
 }
 public class Apply {
-    public static void process(Processor p, Object s) {
+    public static void process(Processable p, Object s) {
         print("Using Processor " + p.name());
         print(p.process(s));
     }
@@ -31,5 +33,11 @@ public class Apply {
         process(new Upcase(), s);
         process(new Downcase(), s);
         process(new Splitter(), s);
+
+        Waveform waveform = new Waveform();
+        process(new BandPass(2,3), waveform);
+        process(new Filter(), waveform);
+        process(new HighPass(2), waveform);
+        process(new LowPass(2), waveform);
     }
 }
