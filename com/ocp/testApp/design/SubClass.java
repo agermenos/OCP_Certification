@@ -11,6 +11,11 @@ public class SubClass extends SuperClass
         public SubClass( int m ){
             super(m);
         }
+
+        public static void main(String args[]){
+            SuperClass sc = new SubClass(4);
+            System.out.println("Here you have sc... " + sc);
+        }
 }
 
 class SuperClass {

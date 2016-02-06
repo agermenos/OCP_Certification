@@ -3,9 +3,11 @@ package com.ocp.testApp.design;
 public class Shady {
     public static void main(String args[]) {
         A o1 = new C();
-        B o2 = (B) o1;
+        A o2 = (A) o1;
+        System.out.println("C typeof A --> " + (o1 instanceof B));
         System.out.println(o1.m1());
         System.out.println(o2.i);
+        System.out.println(o2.m1());
     }
 }
 
