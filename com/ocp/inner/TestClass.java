@@ -12,12 +12,12 @@ class OtherOuter {
     private int oi = 20;
 
     class Inner {
-        int getOi() {
+       int getOi() {
             return oi;
         }
     }
 
-    Inner getInner() {
+    public Inner getInner() {
         return new Inner();
     }
 }

@@ -13,7 +13,7 @@ public class ScopingTests {
 
     class IronThrone extends Throne {
         public IronThrone(String name) {
-            super("Iron");
+            super("Golden");
         }
     }
 
