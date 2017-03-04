@@ -10,7 +10,7 @@ import java.nio.file.Paths;
 public class DataRetriever {
     public static String getMuchData(){
         StringBuilder sb = new StringBuilder();
-        try (InputStream in = Files.newInputStream(Paths.get("classpath:/resources/data.txt"));
+        try (InputStream in = Files.newInputStream(Paths.get("data.txt"));
              BufferedReader reader =
                      new BufferedReader(new InputStreamReader(in))) {
             String line;
