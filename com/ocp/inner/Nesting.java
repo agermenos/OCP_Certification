@@ -31,7 +31,7 @@ class B extends A {
         C() {
             super('d');
             System.out.println(B.this.c);
-            System.out.println(C.this.c);
+            System.out.println(this.c);
             System.out.println(super.c);
         }
     }
