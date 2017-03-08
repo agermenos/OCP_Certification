@@ -1,12 +1,13 @@
-Admit it. You love underdog tales. The Cleveland Cavaliers coming back from a 3-1 deficit against the Golden State Warriors. The New York Giants defeating the 18-0 New England Patriots, and the Average Joes beating the heavily favored Purple Cobras in the dodgeball finals.
+The U.S. Citizenship and Immigration Services (USCIS) has acknowledged noticeable delays in processing H1B petitions. The American Immigration Lawyers Association (AILA) raised concerns over these delays in a call with USCIS Service Center Operations (SCOPS) on February 3, 2016. A prime cause of the delays appears to be the large number of H1B amendments being filed in the wake of the policy change prompted by Matter of Simeio Solutions.
 
-Well, you can now add AMD’s highly anticipated Ryzen CPU to that list of epic comebacks in history. Yes, disbeliever, AMD’s Ryzen almost—almost—lives up to the hype. What’s more, it delivers the goods at an unbeatable price: $499 for the highest-end Ryzen 7 1800X. That’s half the cost of its closest Intel competitor.
+H1B Amendments Required for Most Worksite Changes
+As discussed in USCIS Sets Aug 19th Deadline to File H1B Amendments for Employee Relocation (03.Jun.2015), the employer must file an amendment in most situations in which an H1B worker is moved to a location not listed in the existing approved H1B petition. This has led to a foreseeable influx in H1B amendments filings – and corresponding processing delays – at both the California Service Center (CSC) and the Vermont Service Center (VSC).
 
-But before AMD fanboys run off to rub it into Intel fanboys’ faces, there’s a very important thing you need to know about this CPU and its puzzling Jekyll-and-Hyde performance. For some, we dare say, it might even be a dealbreaker.
-We can’t get into a review of Ryzen without first recalling the tragic circumstances that came before it: AMD’s Bulldozer and Vishera CPUs sold under the FX brand. Intended as a competitive comeback to Intel’s own epic comeback chips—the Core 2 and Core i7—AMD’s FX series instead went down in flames performance-wise.
+Increased Premium Processing Requests
+In addition to the overall increase in volume of H1B petitions, the USCIS also reports an upsurge in the number of premium processing requests. This, of course, is a circular problem. As standard processing times increase, more petitioners tend to opt for premium processing. And, as USCIS officers give priority to premium processing cases, this typically creates further delays for the regular processing filings.
 
-The failure of Bulldozer and Vishera left AMD languishing for years, all but abandoning the high end and nursing itself on an ARM CPU for servers. In fact, the last time AMD had a truly competitive CPU, people still listened to INXS, the Weakest Link was a thing, and George W. Bush was president. The technical term for that is: a hell of a long time ago.
+Caution: 240-Day Work Authorization Limit
+Generally speaking, the beneficiary of a timely filed H1B extension with the same employer may continue to work for up to 240 days while the petition is pending. Normally, this 240-day limit is sufficient to receive a decision on the petition. With processing times now extending well beyond six months, however, the 240-day limit is of greater concern.
 
-Ryzen is nothing like its star-crossed predecessors, though. The FX CPUs used a technique called clustered multithreading (CMT) that shared key components of the chip; they were built on an uncompetitive 32nm, and later 28nm, process; and the 8-core versions more often than not lost to Intel’s 4-core chips.
-
-As anyone who has wallowed in failure only to return to greatness knows, tragedy and loss only make an underdog story sweeter. With Ryzen, AMD rebooted its CPU design, tossing aside CMT. It even adopted a technique from Intel’s playbook called simultaneous multithreading (SMT), which virtualizes CPU resources.
+USCIS Must Dramatically Improve its Processing Time
+The number of petitions being filed will undoubtedly skyrocket during the first week of April 2016, as it is expected that over 200,000 H1B cap cases will be filed for the fiscal year 2017 H1B cap. This threatens to further exacerbate these long processing times. It remains to be seen how long it will take before the USCIS is able to get this backlog under control.
