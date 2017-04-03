@@ -13,14 +13,15 @@ public class MapSorter {
             else return compare;
         };
 
-        Map<K,V> returnMap = new TreeMap<K,V>(valueComparator);
+        Map<K,V> returnMap = new TreeMap<>(valueComparator);
         returnMap.putAll(map);
         return returnMap;
     }
 
     public static void main(String args[]){
         String data = DataRetriever.getMuchData();
-        String[] rawValues = data.replaceAll ("[,.;]","").toLowerCase().split("\\s");
+        //String[] rawValues = data.replaceAll ("[,.;]","").toLowerCase().split("\\s");
+        String[] rawValues = data.toLowerCase().split("\\W");
         Map<String, Integer> entryMap = getWordMap(rawValues);
         //Map<String, Integer> finalMap = sortByValues(entryMap);
         Map<String, Integer>finalMap = new TreeMap<>();
@@ -34,10 +35,10 @@ public class MapSorter {
     private static Map<String,Integer> getWordMap(String[] rawValues) {
         Map<String, Integer> returnMap = new HashMap<>();
         for (String word:rawValues){
-            Integer value = returnMap.get(word);
+            Integer value = returnMap.get(word.trim());
             if (value==null || value==0) value=1;
             else value++;
-            returnMap.put(word,value);
+            if (!word.isEmpty()) returnMap.put(word.trim(),value);
         }
         return returnMap;
     }
