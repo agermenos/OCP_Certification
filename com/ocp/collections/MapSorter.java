@@ -13,14 +13,15 @@ public class MapSorter {
             else return compare;
         };
 
-        Map returnMap = new TreeMap (valueComparator);
+        Map<K,V> returnMap = new TreeMap<>(valueComparator);
         returnMap.putAll(map);
         return returnMap;
     }
 
     public static void main(String args[]){
         String data = DataRetriever.getMuchData();
-        String[] rawValues = data.replaceAll ("[,.;]","").toLowerCase().split("\\s");
+        //String[] rawValues = data.replaceAll ("[,.;]","").toLowerCase().split("\\s");
+        String[] rawValues = data.toLowerCase().split("\\W");
         Map<String, Integer> entryMap = getWordMap(rawValues);
         //Map<String, Integer> finalMap = sortByValues(entryMap);
         Map<String, Integer>finalMap = new TreeMap<>();
@@ -32,6 +33,7 @@ public class MapSorter {
             }
             System.out.println("\t---->\t" + Integer.valueOf(entry.getValue()));
         }
+        //EntrySet<String, Integer> row = getRow(strValue);
     }
 
     private static Map<String,Integer> getWordMap(String[] rawValues) {

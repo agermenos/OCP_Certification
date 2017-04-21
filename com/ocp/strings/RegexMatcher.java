@@ -21,7 +21,7 @@ public class RegexMatcher {
     @Test
     public void testNegation(){
         String text = "123123carcar";
-        String regex = "([123])[car]";
+        String regex = "car\\b";
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(text);
         while (matcher.find()) {
